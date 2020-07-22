@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Zach Olkin - Research</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: left;
+  background: #5a78d8;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.main {
+    width: 100%;
+    padding: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+.abstract{
+    text-indent: 3em;
+    max-width: 1300px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Zachary Olkin</h1>
+  <p>Undergraduate Student in Computer Engineering | Georgia Tech</p>
+</div>
+
+<div class="navbar">
+  <a href="zach_site.html">Home</a>
+  <a href="research.html">Research</a>
+  <a href="education.html">Mentoring and Teaching</a>
+  <a href="projects.html">Projects</a>
+<!-- <a href="#" class="right">Link</a> -->
+</div>
+
+<div class="main"> 
+    <h2>Autonomous Quadrotor Trajectory Planning and Control for
+        In-Flight Aerial Vehicle Capture</h2>
+    <p><img src="geo_path_vectors.png" style="margin-right: 15px; float: left;">
+    <b>Abstract:</b>
+    <br>
+    <p class="abstract">
+        This paper develops a path planning and control architecture for an interceptor air vehicle designed to
+    capture small target UAVs, which are assumed to be at rest or moving slowly. The proposed architecture
+    has three main parts. First, a geometric path planner is developed to determine the trajectory for
+    the quadrotor to travel from its initial location to the rendezvous location. The second component of
+    the architecture is a minimal-time thrust profile generation algorithm. The algorithm represents the
+    quadrotor’s acceleration as a B-Spline and uses the convex-hull property of the spline to transform the
+    constraints into functions of the control points so an optimization problem can be formulated to minimize
+    time to capture. Lastly, a low-level controller tracks the orientation and thrust commands. In this
+    architecture, the thrust profile and geometric path are generated independently. The proposed planning
+    and control architecture provide one key advantage over alternative optimal control approaches: by
+    separating the thrust profile generation from the geometric path generation, the minimal time trajectory
+    generation problem has less variables and constraints to calculate, thus allowing on-board calculation of
+    the thrust profile. Results are presented demonstrating aerial capture of targets in simulation.
+    <br>
+    <br>
+    <b>Lab: </b>iREAL, Georgia Institute of Technology
+    <br>
+    <b>Date: </b>Summer, 2020 - Current
+    </p></p>
+
+
+    
+    <a target="_blank" href="pura_report_v2.pdf">View paper here.</a>
+
+    <!--Make the hr go under the image-->
+    <p class="clear"></p>
+</div>
+
+</body>
+</html>
+
+
