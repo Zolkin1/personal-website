@@ -1,0 +1,133 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zachary Olkin – Research</title>
+    <link>http://localhost:1313/research/</link>
+    <description>Recent content in Research on Zachary Olkin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Autonomous Quadrotor Trajectory Planning and Control for In-Flight Aerial Vehicle Capture</title>
+      <link>http://localhost:1313/research/aerial_capture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/research/aerial_capture/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Abstract&lt;span class=&#34;absolute -mt-20&#34; id=&#34;abstract&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#abstract&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This paper develops a path planning and control architecture for an interceptor air vehicle designed to capture small target UAVs, which are assumed to be at rest or moving slowly. The proposed architecture has three main parts. First, a geometric path planner is developed to determine the trajectory for the quadrotor to travel from its initial location to the rendezvous location. The second component of the architecture is a minimal-time thrust profile generation algorithm. The algorithm represents the quadrotor’s acceleration as a B-Spline and uses the convex-hull property of the spline to transform the constraints into functions of the control points so an optimization problem can be formulated to minimize time to capture. Lastly, a low-level controller tracks the orientation and thrust commands. In this architecture, the thrust profile and geometric path are generated independently. The proposed planning and control architecture provide one key advantage over alternative optimal control approaches: by separating the thrust profile generation from the geometric path generation, the minimal time trajectory generation problem has fewer variables and constraints to calculate, thus allowing on-board calculation of the thrust profile. Results are presented demonstrating aerial capture of targets in simulation.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/research/images/geo_path_vectors.png&#34; title=&#34;Generated trajectory. The vehichle to capture is the ellipsoid in the center, and the controlled vehicle starts on the ground below it.&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Generated trajectory. The vehichle to capture is the ellipsoid in the center, and the controlled vehicle starts on the ground below it.&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Additional Info&lt;span class=&#34;absolute -mt-20&#34; id=&#34;additional-info&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#additional-info&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Zachary Olkin, Jonathan Rogers&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location&lt;/strong&gt;: AREAL, Georgia Tech&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: May, 2020 - January 2021&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/9438242&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Zolkin1/quad-sim-vehicle-capture&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Bilevel Gait Generation</title>
+      <link>http://localhost:1313/research/bilevel-gait-gen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/research/bilevel-gait-gen/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Abstract&lt;span class=&#34;absolute -mt-20&#34; id=&#34;abstract&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#abstract&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Model Predictive Control (MPC) is a common tool for the control of nonlinear, real-world systems, such as legged robots. However, solving MPC quickly enough to enable its use in real-time is often challenging. One common solution is given by real-time iterations, which does not solve the MPC problem to convergence, but rather close enough to give an approximate solution. In this paper, we extend this idea to a bilevel control framework where a &amp;ldquo;high-level&amp;rdquo; optimization program modifies a controller parameter of a &amp;ldquo;low-level&amp;rdquo; MPC problem which generates the control inputs and desired state trajectory. We propose an algorithm to iterate on this bilevel program in real-time and provide conditions for its convergence and improvements in stability. We then demonstrate the efficacy of this algorithm by applying it to a quadrupedal robot where the high-level problem optimizes a contact schedule in real-time. We show through simulation that the algorithm can yield improvements in disturbance rejection and optimality, while creating qualitatively new gaits.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2&gt;Additional Info&lt;span class=&#34;absolute -mt-20&#34; id=&#34;additional-info&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#additional-info&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Zachary Olkin, Aaron Ames&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location&lt;/strong&gt;: Amber Lab, Caltech&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: October 2023 - April 2024&lt;/p&gt;
+&lt;p&gt;Paper (Link coming soon)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Zolkin1/bilevel-gait-gen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Custom Drone for First Responders</title>
+      <link>http://localhost:1313/research/first_responders_drone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/research/first_responders_drone/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Description&lt;span class=&#34;absolute -mt-20&#34; id=&#34;description&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#description&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I was creating a custom built drone that is optimized for use by first responders. The goal was to build a drone that can take off after an upside down landing, stabilize its position indoors without GPS, and function in complete darkness all while gathering critical information for first responders. I generated requirements, wrote specifications, wrote code, designed and soldered electronics, and modeled, fabriacted, and built a custom drone. This was a solo project where I performed all of the design, implementation, and testing of the quadcopter. This project has been an amazing learning experience where I have improved my engineering skills and learned to make solutions that are robust and accurate.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/research/images/first_responder_drone.jpg&#34; title=&#34;Version 1 of the first responder drone.&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Version 1 of the first responder drone.&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Additional Info&lt;span class=&#34;absolute -mt-20&#34; id=&#34;additional-info&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#additional-info&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Location&lt;/strong&gt;: AREAL, Georgia Tech&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: January 2021 - May 2022&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Drone Dock Cruise Control</title>
+      <link>http://localhost:1313/research/drone_dock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/research/drone_dock/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Description&lt;span class=&#34;absolute -mt-20&#34; id=&#34;description&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#description&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I modified a R/C car to have a cruise control system and log critical data. The overall goal of the research project is to land an autonomous quadcopter on a moving dock. The truck pictured below will have the landing dock mounted ontop. This cruise control system has a few modes: a &amp;ldquo;pass through&amp;rdquo; mode where the truck can be controlled normally, a mode in which the cruise control setpoint can be wirelessly changed, and a cruise control mode where a constant PWM width is passed into the ESC from the onboard computer. GPS data is logged onto a micro SD card for further analysis after the test runs. By using this system, the truck does not need to be driven during testing, and a constant velocity can be used for testing. This makes it easier to debug and run tests with the system.&lt;/p&gt;
+&lt;p&gt;
+    &lt;figure&gt;
+    &lt;img src=&#34;../images/rc_car.jpg&#34; title=&#34;Finished drone dock showcasing electronics.&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Finished drone dock showcasing electronics.&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Additional Info&lt;span class=&#34;absolute -mt-20&#34; id=&#34;additional-info&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#additional-info&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Location&lt;/strong&gt;: AREAL Lab, Georgia Tech&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dates&lt;/strong&gt;: January 2021 - March 2021&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Indoor Flight Lab Synthetic GPS</title>
+      <link>http://localhost:1313/research/ifl_gps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/research/ifl_gps/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Description&lt;span class=&#34;absolute -mt-20&#34; id=&#34;description&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#description&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I designed and tested a tool that takes in VICON motion caputre data and converts it to an equivalent stream of data formatted as a GPS. Using this tool, any flight controller that would expect GPS data can be used in the Indoor Flight Lab (IFL) at Georgia Tech with no modifications. The tool can be easily customized to fit anyone&amp;rsquo;s needs. Additional noise can be artifically added to the VICON data to better emulate GPS data. The rate at which the data is output and the format of the data (NMEA and UBX) can also be chosen.&lt;/p&gt;
+&lt;p&gt;
+    &lt;figure&gt;
+    &lt;img src=&#34;../images/ifl_photon.jpg&#34; title=&#34;Synthetic GPS device connected to a flight controller in the IFL.&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Synthetic GPS device connected to a flight controller in the IFL.&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Additional Info&lt;span class=&#34;absolute -mt-20&#34; id=&#34;additional-info&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#additional-info&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Location&lt;/strong&gt;:  AREAL and Indoor Flight Lab (IFL), Georgia Tech&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dates&lt;/strong&gt;: January 2020 - January 2021&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

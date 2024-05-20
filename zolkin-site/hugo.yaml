@@ -1,0 +1,55 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Zachary Olkin
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+menu:
+  main:
+    - name: Research
+      pageRef: /research
+      weight: 1
+    - name: Blog
+      pageRef: /blog
+      weight: 2
+    - name: About
+      pageRef: /about
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/Zolkin1"
+      params:
+        icon: github
+
+
+
+params:
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
+
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: false
+    width: normal
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+
+  comments:
+    enable: false
