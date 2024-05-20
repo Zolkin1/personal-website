@@ -1,4 +1,4 @@
-module github.com/Zolkin1/zolkin-site
+module github.com/Zolkin1/personal-website
 
 go 1.22.3
 
