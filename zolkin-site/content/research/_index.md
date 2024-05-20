@@ -10,7 +10,7 @@ layout: wide
         link="/research/bilevel-gait-gen"
         title="Bilevel Gait Generation"
         subtitle="Caltech, 2024"
-        image="https://github.com/imfing/hextra/assets/5097752/8c29470b-3994-41c8-be9a-5b41476e6f3c"
+        image="/research/images/bilevel_gait_gen.jpg"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 
