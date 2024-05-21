@@ -16,7 +16,7 @@ tags:
 
 This project is a ICM-20948 (Inertial Measurement Unit) device driver written in Rust. The driver uses the embedded-hal traits and thus can be used on any microcontroller that has a HAL that implements those traits. The source code can be found on [github](https://github.com/Zolkin1/icm20948_driver). Documentation can be found on the [docs.rs](https://docs.rs/icm20948_driver/0.1.0/icm20948_driver/) page. The data sheet for this device can be found [here](https://invensense.tdk.com/download-pdf/icm-20948-datasheet/). See the documentation for current limitations and future plans. Please create an issue on github or contact me if there are issues that need to be resolved.
 
-I decided to start writing this driver to practice writting Rust and to develop this while I had some free time (in Summer of 2022). I hope to use it in my future robotics projects.
+I decided to start writing this driver to practice writing Rust and to provide an easy to use IMU driver for future projects. I hope to use it in my robotics projects.
 
 I currently have plans to update the driver soon with changes as suggested in the Github Repo. Another blog post will be published when those changes go live.
 

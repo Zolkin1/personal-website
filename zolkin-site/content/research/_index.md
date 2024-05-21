@@ -8,7 +8,7 @@ layout: wide
 
     {{< card
         link="/research/bilevel-gait-gen"
-        title="Bilevel Gait Generation"
+        title="Bilevel Optimization for Real-Time Control with Application to Locomotion Gait Generation"
         subtitle="Caltech, 2024"
         image="/research/images/bilevel_gait_gen.jpg"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"

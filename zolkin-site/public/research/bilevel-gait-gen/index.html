@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
 
-  <title>Bilevel Gait Generation – Zachary Olkin</title>
+  <title>Bilevel Optimization for Real-Time Control with Application to Locomotion Gait Generation – Zachary Olkin</title>
   <meta name="description" content="Abstract Model Predictive Control (MPC) is a common tool for the control of nonlinear, real-world systems, such as legged robots. However, solving MPC quickly enough to enable its use in real-time is often challenging. One common solution is given by real-time iterations, which does not solve the MPC problem to convergence, but rather close enough to give an approximate solution. In this paper, we extend this idea to a bilevel control framework where a “high-level” optimization program modifies a controller parameter of a “low-level” MPC problem which generates the control inputs and desired state trajectory." />
   
   
@@ -20,7 +20,7 @@
 
   
 
-<meta property="og:title" content="Bilevel Gait Generation" />
+<meta property="og:title" content="Bilevel Optimization for Real-Time Control with Application to Locomotion Gait Generation" />
 <meta property="og:description" content="Abstract Model Predictive Control (MPC) is a common tool for the control of nonlinear, real-world systems, such as legged robots. However, solving MPC quickly enough to enable its use in real-time is often challenging. One common solution is given by real-time iterations, which does not solve the MPC problem to convergence, but rather close enough to give an approximate solution. In this paper, we extend this idea to a bilevel control framework where a &ldquo;high-level&rdquo; optimization program modifies a controller parameter of a &ldquo;low-level&rdquo; MPC problem which generates the control inputs and desired state trajectory." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/research/bilevel-gait-gen/" /><meta property="article:section" content="research" />
@@ -28,11 +28,11 @@
 
 
   
-  <meta itemprop="name" content="Bilevel Gait Generation">
+  <meta itemprop="name" content="Bilevel Optimization for Real-Time Control with Application to Locomotion Gait Generation">
   <meta itemprop="description" content="Abstract Model Predictive Control (MPC) is a common tool for the control of nonlinear, real-world systems, such as legged robots. However, solving MPC quickly enough to enable its use in real-time is often challenging. One common solution is given by real-time iterations, which does not solve the MPC problem to convergence, but rather close enough to give an approximate solution. In this paper, we extend this idea to a bilevel control framework where a “high-level” optimization program modifies a controller parameter of a “low-level” MPC problem which generates the control inputs and desired state trajectory.">
-  <meta itemprop="wordCount" content="184">
+  <meta itemprop="wordCount" content="234">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Bilevel Gait Generation">
+  <meta name="twitter:title" content="Bilevel Optimization for Real-Time Control with Application to Locomotion Gait Generation">
   <meta name="twitter:description" content="Abstract Model Predictive Control (MPC) is a common tool for the control of nonlinear, real-world systems, such as legged robots. However, solving MPC quickly enough to enable its use in real-time is often challenging. One common solution is given by real-time iterations, which does not solve the MPC problem to convergence, but rather close enough to give an approximate solution. In this paper, we extend this idea to a bilevel control framework where a “high-level” optimization program modifies a controller parameter of a “low-level” MPC problem which generates the control inputs and desired state trajectory.">
 
     <link href="/css/compiled/main.css" rel="stylesheet" />
@@ -227,7 +227,7 @@
       sidebar-active-item bg-primary-100 font-semibold text-primary-800 contrast-more:border contrast-more:border-primary-500 dark:bg-primary-400/10 dark:text-primary-600 contrast-more:dark:border-primary-500"
     href="/research/bilevel-gait-gen/"
     
-  >Bilevel Gait Generation
+  >Bilevel Optimization for Real-Time Control with Application to Locomotion Gait Generation
     </a>
   
     <ul class='flex flex-col gap-1 relative before:absolute before:inset-y-1 before:w-px before:bg-gray-200 before:content-[""] dark:before:bg-neutral-800 ltr:pl-3 ltr:before:left-0 rtl:pr-3 rtl:before:right-0 ltr:ml-3 rtl:mr-3'><li>
@@ -312,12 +312,16 @@
     <article class="w-full break-words flex min-h-[calc(100vh-var(--navbar-height))] min-w-0 justify-center pb-8 pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="w-full min-w-0 max-w-6xl px-6 pt-4 md:px-12">
         <br class="mt-1.5 text-sm" />
-        <h1 class="text-center mt-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Bilevel Gait Generation</h1>
+        <h1 class="text-center mt-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Bilevel Optimization for Real-Time Control with Application to Locomotion Gait Generation</h1>
         <div class="mb-16"></div>
         <div class="content">
           <h2>Abstract<span class="absolute -mt-20" id="abstract"></span>
     <a href="#abstract" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Model Predictive Control (MPC) is a common tool for the control of nonlinear, real-world systems, such as legged robots. However, solving MPC quickly enough to enable its use in real-time is often challenging. One common solution is given by real-time iterations, which does not solve the MPC problem to convergence, but rather close enough to give an approximate solution. In this paper, we extend this idea to a bilevel control framework where a &ldquo;high-level&rdquo; optimization program modifies a controller parameter of a &ldquo;low-level&rdquo; MPC problem which generates the control inputs and desired state trajectory. We propose an algorithm to iterate on this bilevel program in real-time and provide conditions for its convergence and improvements in stability. We then demonstrate the efficacy of this algorithm by applying it to a quadrupedal robot where the high-level problem optimizes a contact schedule in real-time. We show through simulation that the algorithm can yield improvements in disturbance rejection and optimality, while creating qualitatively new gaits.</p>
 <!-- raw HTML omitted -->
+<p><figure>
+    <img src="/research/images/bilevel_gait_gen.jpg" title="Structure of the bilevel optimization. The MPC uses parameters from the high-level optimization and outputs the control inputs and state trajectory. When applied to the quadruped, the high-level parameter is the contact schedule. The green dots indicate contact with the ground and show how the contact schedule changes over time." alt="" loading="lazy" />
+    <figcaption>Structure of the bilevel optimization. The MPC uses parameters from the high-level optimization and outputs the control inputs and state trajectory. When applied to the quadruped, the high-level parameter is the contact schedule. The green dots indicate contact with the ground and show how the contact schedule changes over time.</figcaption>
+  </figure></p>
 <h2>Additional Info<span class="absolute -mt-20" id="additional-info"></span>
     <a href="#additional-info" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p><strong>Authors</strong>: Zachary Olkin, Aaron Ames</p>
 <p><strong>Location</strong>: Amber Lab, Caltech</p>
