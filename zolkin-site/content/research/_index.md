@@ -5,6 +5,13 @@ layout: wide
 ---
 
 {{< cards >}}
+    {{< card
+        link="/research/layered_mpc_hybrid_robustness"
+        title="Layered Nonlinear Model Predictive Control for Robust Stabilization of Hybrid Systems"
+        subtitle="Caltech, 2024"
+        image="/research/images/layered_mpc_hybrid_fig.jpg"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+  >}}
 
     {{< card
         link="/research/bilevel-gait-gen"

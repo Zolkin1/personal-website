@@ -50,7 +50,6 @@
         
         &lt;h2&gt;Abstract&lt;span class=&#34;absolute -mt-20&#34; id=&#34;abstract&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#abstract&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Model Predictive Control (MPC) is a common tool for the control of nonlinear, real-world systems, such as legged robots. However, solving MPC quickly enough to enable its use in real-time is often challenging. One common solution is given by real-time iterations, which does not solve the MPC problem to convergence, but rather close enough to give an approximate solution. In this paper, we extend this idea to a bilevel control framework where a &amp;ldquo;high-level&amp;rdquo; optimization program modifies a controller parameter of a &amp;ldquo;low-level&amp;rdquo; MPC problem which generates the control inputs and desired state trajectory. We propose an algorithm to iterate on this bilevel program in real-time and provide conditions for its convergence and improvements in stability. We then demonstrate the efficacy of this algorithm by applying it to a quadrupedal robot where the high-level problem optimizes a contact schedule in real-time. We show through simulation that the algorithm can yield improvements in disturbance rejection and optimality, while creating qualitatively new gaits.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;&lt;figure&gt;
     &lt;img src=&#34;http://localhost:1313/research/images/bilevel_gait_gen.jpg&#34; title=&#34;Structure of the bilevel optimization. The MPC uses parameters from the high-level optimization and outputs the control inputs and state trajectory. When applied to the quadruped, the high-level parameter is the contact schedule. The green dots indicate contact with the ground and show how the contact schedule changes over time.&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
     &lt;figcaption&gt;Structure of the bilevel optimization. The MPC uses parameters from the high-level optimization and outputs the control inputs and state trajectory. When applied to the quadruped, the high-level parameter is the contact schedule. The green dots indicate contact with the ground and show how the contact schedule changes over time.&lt;/figcaption&gt;
@@ -59,7 +58,7 @@
     &lt;a href=&#34;#additional-info&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Zachary Olkin, Aaron Ames&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Location&lt;/strong&gt;: Amber Lab, Caltech&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: October 2023 - April 2024&lt;/p&gt;
-&lt;p&gt;Paper (Link coming soon)&lt;/p&gt;
+&lt;p&gt;Paper: &lt;a href=&#34;https://arxiv.org/abs/2409.12366&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Zolkin1/bilevel-gait-gen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
 
       </description>
@@ -129,6 +128,31 @@
 &lt;h2&gt;Additional Info&lt;span class=&#34;absolute -mt-20&#34; id=&#34;additional-info&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#additional-info&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Location&lt;/strong&gt;:  AREAL and Indoor Flight Lab (IFL), Georgia Tech&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Dates&lt;/strong&gt;: January 2020 - January 2021&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Layered Nonlinear Model Predictive Control for Robust Stabilization of Hybrid Systems</title>
+      <link>http://localhost:1313/research/layered_mpc_hybrid_robustness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/research/layered_mpc_hybrid_robustness/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Abstract&lt;span class=&#34;absolute -mt-20&#34; id=&#34;abstract&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#abstract&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Computing the receding horizon optimal control of nonlinear hybrid systems is typically prohibitively slow, limiting real-time implementation. To address this challenge, we propose a layered Model Predictive Control (MPC) architecture for robust stabilization of hybrid systems. A high level &amp;ldquo;hybrid&amp;rdquo; MPC is solved at a slow rate to produce a stabilizing hybrid trajectory, potentially sub-optimally, including a domain and guard sequence.  This domain and guard sequence is passed to a low level &amp;ldquo;fixed mode&amp;rdquo; MPC which is a traditional, time-varying, state-constrained MPC that can be solved rapidly, e.g., using nonlinear programming (NLP) tools. A robust version of the fixed mode MPC is constructed by using tracking error tubes that are not guaranteed to have finite size for all time. Using these tubes, we demonstrate that the speed at which the fixed mode MPC is re-calculated is directly tied to the robustness of the system, thereby justifying the layered approach. Finally, simulation examples of a five link bipedal robot and a controlled nonlinear bouncing ball are used to illustrate the formal results.&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/research/images/layered_mpc_hybrid_fig.jpg&#34; title=&#34;The hybrid MPC layer determines a feasible path at a slow rate, and passes these modes to the fixed mode MPC. This MPC computes a robustly stabilizing solution at a higher rate. The trajectory and feed forward input is passed to the low level controller where it is tracked. We use properties of the low level controller to determine the size of the tube. The resulting control action is applied to the dynamics.&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;The hybrid MPC layer determines a feasible path at a slow rate, and passes these modes to the fixed mode MPC. This MPC computes a robustly stabilizing solution at a higher rate. The trajectory and feed forward input is passed to the low level controller where it is tracked. We use properties of the low level controller to determine the size of the tube. The resulting control action is applied to the dynamics.&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Additional Info&lt;span class=&#34;absolute -mt-20&#34; id=&#34;additional-info&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#additional-info&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Zachary Olkin, Aaron Ames&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location&lt;/strong&gt;: Amber Lab, Caltech&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: May 2024 - September 2024&lt;/p&gt;
+&lt;p&gt;Paper: link coming soon.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Zolkin1/hybrid-mpc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;. Note that the code was not designed as a library. This is just the code to re-create the examples.&lt;/p&gt;
 
       </description>
     </item>
