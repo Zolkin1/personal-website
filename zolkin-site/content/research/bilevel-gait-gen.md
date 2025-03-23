@@ -10,10 +10,12 @@ Model Predictive Control (MPC) is a common tool for the control of nonlinear, re
 ## Additional Info
 **Authors**: Zachary Olkin, Aaron Ames
 
-**Location**: Amber Lab, Caltech
+**Conference:** CDC 2024 (Conference on Decision and Control)
 
-**Date**: October 2023 - April 2024
+**Location of work**: Amber Lab, Caltech
 
-Paper: [arXiv](https://arxiv.org/abs/2409.12366)
+**Dates of work**: October 2023 - April 2024
+
+**Paper**: [arXiv](https://arxiv.org/abs/2409.12366)
 
 [Github](https://github.com/Zolkin1/bilevel-gait-gen)

@@ -10,10 +10,12 @@ Computing the receding horizon optimal control of nonlinear hybrid systems is ty
 ## Additional Info
 **Authors**: Zachary Olkin, Aaron Ames
 
-**Location**: Amber Lab, Caltech
+**Conference:** ACC 2025 (American Control Conference)
 
-**Date**: May 2024 - September 2024
+**Location of work**: Amber Lab, Caltech
 
-Paper: link coming soon.
+**Dates of work**: May 2024 - September 2024
+
+**Paper**: [arxiv](https://arxiv.org/abs/2503.12810v1)
 
 [Github](https://github.com/Zolkin1/hybrid-mpc). Note that the code was not designed as a library. This is just the code to re-create the examples.
