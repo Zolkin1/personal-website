@@ -48,6 +48,8 @@
   </url><url>
     <loc>http://localhost:1313/research/layered_mpc_hybrid_robustness/</loc>
   </url><url>
+    <loc>http://localhost:1313/research/layered_mpc_control_through_contact/</loc>
+  </url><url>
     <loc>http://localhost:1313/research/</loc>
   </url>
 </urlset>

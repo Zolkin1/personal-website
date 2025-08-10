@@ -6,6 +6,14 @@ layout: wide
 
 {{< cards >}}
     {{< card
+        link="/research/layered_mpc_control_through_contact"
+        title="Locomotion on Constrained Footholds via Layered Architectures and Model Predictive Control"
+        subtitle="Caltech, 2025"
+        image="/research/images/humanoids_layered_mpc_hero_fig_v2.jpg"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+  >}}
+
+    {{< card
         link="/research/layered_mpc_hybrid_robustness"
         title="Layered Nonlinear Model Predictive Control for Robust Stabilization of Hybrid Systems"
         subtitle="Caltech, 2024"

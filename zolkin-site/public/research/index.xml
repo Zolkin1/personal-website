@@ -159,5 +159,45 @@
       </description>
     </item>
     
+    <item>
+      <title>Locomotion on Constrained Footholds via Layered Architectures and Model Predictive Control</title>
+      <link>http://localhost:1313/research/layered_mpc_control_through_contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/research/layered_mpc_control_through_contact/</guid>
+      <description>
+        
+        
+        &lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2&gt;Abstract&lt;span class=&#34;absolute -mt-20&#34; id=&#34;abstract&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#abstract&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Computing stabilizing and optimal control actions for legged locomotion in real time is difficult due to the nonlinear, hybrid, and high dimensional nature of these robots. The hybrid nature of the system introduces a combination of discrete and continuous variables which causes issues for numerical optimal control. To address these challenges, we propose a layered architecture that separates the choice of discrete variables and a smooth Model Predictive Controller (MPC). The layered formulation allows for online flexibility and optimality without sacrificing real-time performance through a combination of gradient-free and gradient-based methods. The architecture leverages a sampling-based method for determining discrete variables, and a classical smooth MPC formulation using these fixed discrete variables. We demonstrate the results on a quadrupedal robot stepping over gaps and onto terrain with varying heights. In simulation, we demonstrate the controller on a humanoid robot for gap traversal. The layered approach is shown to be more optimal and reliable than common heuristic-based approaches and faster to compute than pure sampling methods.&lt;/p&gt;
+&lt;h2&gt;Video&lt;span class=&#34;absolute -mt-20&#34; id=&#34;video&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#video&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/pTIWqsFODQk?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2&gt;Pictures&lt;span class=&#34;absolute -mt-20&#34; id=&#34;pictures&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#pictures&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/research/images/humanoids_layered_mpc_hero_fig_v2.jpg&#34; title=&#34;Demonstration of the layered controller dynamically navigating over complex terrain and locomoting effectively on flat ground. The controller is both versatile in the terrain and actions it can stabilize and fast enough for real-time control.&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Demonstration of the layered controller dynamically navigating over complex terrain and locomoting effectively on flat ground. The controller is both versatile in the terrain and actions it can stabilize and fast enough for real-time control.&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2&gt;Additional Info&lt;span class=&#34;absolute -mt-20&#34; id=&#34;additional-info&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#additional-info&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Zachary Olkin, Aaron Ames&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conference:&lt;/strong&gt; Humanoids 2025&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location of work&lt;/strong&gt;: Amber Lab, Caltech&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dates of work&lt;/strong&gt;: September 2024 - April 2025&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/2506.09979&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arxiv&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Zolkin1/sample-contact-walking&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repo 1&lt;/a&gt;, &lt;a href=&#34;https://github.com/Zolkin1/torc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repo 2&lt;/a&gt;. The second repo (TORC) has the MPC code as a library and the first repo is the code that actually runs the simulation and hardware.&lt;/p&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>
