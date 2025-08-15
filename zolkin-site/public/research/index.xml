@@ -66,6 +66,44 @@
     </item>
     
     <item>
+      <title>CLF-RL: Control Lyapunov Function Guided Reinforcement Learning</title>
+      <link>http://localhost:1313/research/clf_rl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/research/clf_rl/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Abstract&lt;span class=&#34;absolute -mt-20&#34; id=&#34;abstract&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#abstract&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Reinforcement learning (RL) has shown promise in generating robust locomotion policies for bipedal robots, but often suffers from tedious reward design and sensitivity to poorly shaped objectives. In this work, we propose a structured reward shaping framework that leverages model-based trajectory generation and control Lyapunov functions (CLFs) to guide policy learning. We explore two model-based planners for generating reference trajectories: a reduced-order linear inverted pendulum (LIP) model for velocity-conditioned motion planning, and a precomputed gait library based on hybrid zero dynamics (HZD) using full-order dynamics. These planners define desired end-effector and joint trajectories, which are used to construct CLF-based rewards that penalize tracking error and encourage rapid convergence. This formulation provides meaningful intermediate rewards, and is straightforward to implement once a reference is available. Both the reference trajectories and CLF shaping are used only during training, resulting in a lightweight policy at deployment. We validate our method both in simulation and through extensive real-world experiments on a Unitree G1 robot. CLF-RL demonstrates significantly improved robustness relative to the baseline RL policy and better performance than a classic tracking reward RL formulation.&lt;/p&gt;
+&lt;h2&gt;Video&lt;span class=&#34;absolute -mt-20&#34; id=&#34;video&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#video&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/f8iuwgCZs3A?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h2&gt;Figures&lt;span class=&#34;absolute -mt-20&#34; id=&#34;figures&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#figures&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/research/images/clf_rl_hero_fig.jpg&#34; title=&#34;Overview of our approach. A reference generator produces target trajectories, which are used to construct a CLF-based reward. An RL policy is trained in simulation with this reward and deployed on a real humanoid robot.&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Overview of our approach. A reference generator produces target trajectories, which are used to construct a CLF-based reward. An RL policy is trained in simulation with this reward and deployed on a real humanoid robot.&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2&gt;Additional Info&lt;span class=&#34;absolute -mt-20&#34; id=&#34;additional-info&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#additional-info&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Kejun Li*, Zachary Olkin*, Yisong Yue, Aaron Ames (* indicates equal contribution).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Submitted to RA-L&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location of work&lt;/strong&gt;: Amber Lab, Caltech&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dates of work&lt;/strong&gt;: June 2025 - August 2025&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/2508.09354&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arxiv&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Zolkin1/robot_rl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RL + Deployment Code&lt;/a&gt;, &lt;a href=&#34;https://github.com/Caltech-AMBER/traj_opt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trajopt Code&lt;/a&gt;. The first repo hosts all the RL code and the code to deploy on the hardware. The second repo has the code for generating the trajectories.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Custom Drone for First Responders</title>
       <link>http://localhost:1313/research/first_responders_drone/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -40,6 +40,8 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/research/clf_rl/</loc>
+  </url><url>
     <loc>http://localhost:1313/research/first_responders_drone/</loc>
   </url><url>
     <loc>http://localhost:1313/research/drone_dock/</loc>

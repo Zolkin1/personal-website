@@ -6,6 +6,14 @@ layout: wide
 
 {{< cards >}}
     {{< card
+        link="/research/clf_rl"
+        title="CLF-RL: Control Lyapunov Function Guided Reinforcement Learning"
+        subtitle="Caltech, 2025"
+        image="/research/images/clf_rl_hero_fig.jpg"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+  >}}
+
+    {{< card
         link="/research/layered_mpc_control_through_contact"
         title="Locomotion on Constrained Footholds via Layered Architectures and Model Predictive Control"
         subtitle="Caltech, 2025"
