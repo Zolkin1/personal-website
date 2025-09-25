@@ -28,6 +28,6 @@ TBD
 
 **Dates of work**: August 2025 - September 2025
 
-**Paper**: arxiv (Coming soon).
+**Paper**: [arxiv](https://arxiv.org/abs/2509.19573).
 
 [RL + Deployment Code](https://github.com/Zolkin1/robot_rl), [Trajopt Code](https://github.com/Caltech-AMBER/traj_opt). The first repo hosts all the RL code and the code to deploy on the hardware. The second repo has the code for generating the trajectories.

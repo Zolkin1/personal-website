@@ -97,7 +97,7 @@
 &lt;p&gt;&lt;strong&gt;Conference:&lt;/strong&gt; Submitted to ICRA 2026&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Location of work&lt;/strong&gt;: Amber Lab, Caltech&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Dates of work&lt;/strong&gt;: August 2025 - September 2025&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Paper&lt;/strong&gt;: arxiv (Coming soon).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/2509.19573&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arxiv&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Zolkin1/robot_rl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RL + Deployment Code&lt;/a&gt;, &lt;a href=&#34;https://github.com/Caltech-AMBER/traj_opt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trajopt Code&lt;/a&gt;. The first repo hosts all the RL code and the code to deploy on the hardware. The second repo has the code for generating the trajectories.&lt;/p&gt;
 
       </description>
