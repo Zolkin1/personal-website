@@ -22,7 +22,7 @@ TBD
 ## Additional Info
 **Authors**: Zachary Olkin, Kejun Li, William Compton, Aaron Ames.
 
-**Conference:** Submitted to ICRA 2026
+**Conference:** In review.
 
 **Location of work**: Amber Lab, Caltech
 

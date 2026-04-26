@@ -40,6 +40,8 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/research/chasing_autonomy/</loc>
+  </url><url>
     <loc>http://localhost:1313/research/clf_rl_running/</loc>
   </url><url>
     <loc>http://localhost:1313/research/clf_rl/</loc>
@@ -55,5 +57,7 @@
     <loc>http://localhost:1313/research/layered_mpc_control_through_contact/</loc>
   </url><url>
     <loc>http://localhost:1313/research/</loc>
+  </url><url>
+    <loc>http://localhost:1313/research/stability_of_clf_rl/</loc>
   </url>
 </urlset>

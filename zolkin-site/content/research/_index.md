@@ -6,6 +6,22 @@ layout: wide
 
 {{< cards >}}
     {{< card
+        link="/research/stability_of_clf_rl"
+        title="Stability of Control Lyapunov Function Guided Reinforcement Learning"
+        subtitle="Caltech, 2026"
+        image="/research/images/clf_rl_theory_hero.jpg"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+  >}}
+
+    {{< card
+        link="/research/chasing_autonomy"
+        title="Chasing Autonomy: Dynamic Retargeting and Control Guided RL for Performant and Controllable Humanoid Running"
+        subtitle="Caltech, 2026"
+        image="/research/images/chasing_autonomy_hero.jpg"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+  >}}
+
+    {{< card
         link="/research/clf_rl_running"
         title="Chasing Stability: Humanoid Running via Control Lyapunov Function Guided Reinforcement Learning"
         subtitle="Caltech, 2025"

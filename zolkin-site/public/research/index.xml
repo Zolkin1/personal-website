@@ -66,6 +66,37 @@
     </item>
     
     <item>
+      <title>Chasing Autonomy: Dynamic Retargeting and Control Guided RL for Performant and Controllable Humanoid Running</title>
+      <link>http://localhost:1313/research/chasing_autonomy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/research/chasing_autonomy/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Abstract&lt;span class=&#34;absolute -mt-20&#34; id=&#34;abstract&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#abstract&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Humanoid robots have the promise of locomoting like humans, including fast and dynamic running. Recently, reinforcement learning (RL) controllers that can mimic human motions have become popular as they can generate very dynamic behaviors, but they are often restricted to single motion play-back which hinders their deployment in long duration and autonomous locomotion. In this paper, we present a pipeline to dynamically retarget human motions through an optimization routine with hard constraints to generate improved periodic reference libraries from a single human demonstration. We then study the effect of both the reference motion and the reward structure on the reference and commanded velocity tracking, concluding that a goal-conditioned and control-guided reward which tracks dynamically optimized human data results in the best performance. We deploy the policy on hardware, demonstrating its speed and endurance by achieving running speeds of up to 3.3 m/s on a Unitree G1 robot and traversing hundreds of meters in real-world environments. Additionally, to demonstrate the controllability of the locomotion, we use the controller in a full perception and planning autonomy stack for obstacle avoidance while running outdoors.&lt;/p&gt;
+&lt;h2&gt;Figures&lt;span class=&#34;absolute -mt-20&#34; id=&#34;figures&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#figures&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/research/images/chasing_autonomy_hero.jpg&#34; title=&#34;Demonstration of the running controller working inside on a constrained treadmill and in outdoor real world environments. The running appears human-like while still achieving the commanded speed through a combination of optimized retargeted human data and control guided reward shaping.&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Demonstration of the running controller working inside on a constrained treadmill and in outdoor real world environments. The running appears human-like while still achieving the commanded speed through a combination of optimized retargeted human data and control guided reward shaping.&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;Video&lt;span class=&#34;absolute -mt-20&#34; id=&#34;video&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#video&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Coming soon.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2&gt;Additional Info&lt;span class=&#34;absolute -mt-20&#34; id=&#34;additional-info&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#additional-info&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Zachary Olkin, William Compton, Ryan Bena, Aaron Ames.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conference:&lt;/strong&gt; In review.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location of work&lt;/strong&gt;: Amber Lab, Caltech&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dates of work&lt;/strong&gt;: November 2025 - March 2026&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/2603.25902&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arxiv&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/Zolkin1/robot_rl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RL + Deployment Code&lt;/a&gt;, &lt;a href=&#34;https://github.com/Caltech-AMBER/traj_opt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trajopt Code&lt;/a&gt;. The first repo hosts all the RL code and the code to deploy on the hardware. The second repo has the code for generating the trajectories.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Chasing Stability: Humanoid Running via Control Lyapunov Function Guided Reinforcement Learning</title>
       <link>http://localhost:1313/research/clf_rl_running/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -94,7 +125,7 @@
 &lt;!-- raw HTML omitted --&gt;
 &lt;h2&gt;Additional Info&lt;span class=&#34;absolute -mt-20&#34; id=&#34;additional-info&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#additional-info&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Zachary Olkin, Kejun Li, William Compton, Aaron Ames.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Conference:&lt;/strong&gt; Submitted to ICRA 2026&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conference:&lt;/strong&gt; In review.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Location of work&lt;/strong&gt;: Amber Lab, Caltech&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Dates of work&lt;/strong&gt;: August 2025 - September 2025&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/2509.19573&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arxiv&lt;/a&gt;.&lt;/p&gt;
@@ -271,6 +302,34 @@
 &lt;p&gt;&lt;strong&gt;Dates of work&lt;/strong&gt;: September 2024 - April 2025&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/2506.09979&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arxiv&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/Zolkin1/sample-contact-walking&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repo 1&lt;/a&gt;, &lt;a href=&#34;https://github.com/Zolkin1/torc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repo 2&lt;/a&gt;. The second repo (TORC) has the MPC code as a library and the first repo is the code that actually runs the simulation and hardware.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Stability of Control Lyapunov Function Guided Reinforcement Learning</title>
+      <link>http://localhost:1313/research/stability_of_clf_rl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/research/stability_of_clf_rl/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Abstract&lt;span class=&#34;absolute -mt-20&#34; id=&#34;abstract&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#abstract&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Reinforcement learning (RL) has become the de facto method for achieving locomotion on humanoid robots in practice, yet stability analysis of the corresponding control policies is lacking. Recent work has attempted to merge control theoretic ideas with reinforcement learning through control guided learning. A notable example of this is the use of a control Lyapunov function (CLF) to synthesize the reinforcement learning rewards, a technique known as CLF-RL, which has shown practical success. This paper investigates the stability properties of optimal controllers using CLF-RL with the goal of bridging experimentally observed stability with theoretical guarantees. The RL problem is viewed as an optimal control problem and exponential stability is proven in both continuous and discrete time using both core CLF reward terms and the additional terms used in practice. The theoretical bounds are numerically verified on systems such as the double integrator and cart-pole. Finally, the CLF guided rewards are implemented for a walking humanoid robot to generate stable periodic orbits.&lt;/p&gt;
+&lt;h2&gt;Figures&lt;span class=&#34;absolute -mt-20&#34; id=&#34;figures&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#figures&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;http://localhost:1313/research/images/clf_rl_theory_hero.jpg&#34; title=&#34;The main ideas behind CLF guided RL. A CLF is designed offline and used in an RL/optimal control problem as the reward/cost. Then the optimal policy is applied to the system resulting in provable exponential stability and in stable humanoid locomotion.&#34; alt=&#34;&#34; loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;The main ideas behind CLF guided RL. A CLF is designed offline and used in an RL/optimal control problem as the reward/cost. Then the optimal policy is applied to the system resulting in provable exponential stability and in stable humanoid locomotion.&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2&gt;Additional Info&lt;span class=&#34;absolute -mt-20&#34; id=&#34;additional-info&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#additional-info&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: Zachary Olkin, William Compton, Aaron Ames.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conference:&lt;/strong&gt; In review.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location of work&lt;/strong&gt;: Amber Lab, Caltech&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dates of work&lt;/strong&gt;: Feburary 2026 - March 2026&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paper&lt;/strong&gt;: Coming soon.&lt;/p&gt;
 
       </description>
     </item>
