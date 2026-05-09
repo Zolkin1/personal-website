@@ -9,7 +9,7 @@ layout: wide
         link="/research/stability_of_clf_rl"
         title="Stability of Control Lyapunov Function Guided Reinforcement Learning"
         subtitle="Caltech, 2026"
-        image="/research/images/clf_rl_theory_hero.jpg"
+        image="/research/images/clf_rl_theory_hero_fig.png"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 
