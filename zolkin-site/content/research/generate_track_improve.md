@@ -30,6 +30,8 @@ General purpose humanoids require locomotion controllers that are multi-skill, p
 
 **Location of work**: Amber Lab, Caltech
 
+**Dates of work**: April 2026 - September 2026
+
 **Paper**: [pdf](https://zolkin1.github.io/generate-track-improve/paper/generate-track-improve.pdf)
 
 **Project website**: [zolkin1.github.io/generate-track-improve](https://zolkin1.github.io/generate-track-improve/)

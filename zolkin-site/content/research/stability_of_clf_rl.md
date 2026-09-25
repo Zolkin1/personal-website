@@ -17,7 +17,7 @@ TBD
 ## Additional Info
 **Authors**: Zachary Olkin, William Compton, Aaron Ames.
 
-**Conference:** In review.
+**Conference:** CDC 2026.
 
 **Location of work**: Amber Lab, Caltech
 
