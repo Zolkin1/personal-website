@@ -10,7 +10,7 @@ Humanoid robots have the promise of locomoting like humans, including fast and d
 ![](/research/images/chasing_autonomy_hero.jpg "Demonstration of the running controller working inside on a constrained treadmill and in outdoor real world environments. The running appears human-like while still achieving the commanded speed through a combination of optimized retargeted human data and control guided reward shaping.")
 
 ## Video
-Coming soon.
+{{< youtube OqhdOYygHuA>}}
 
 <!-- ## Citation:
 ```
@@ -20,7 +20,7 @@ TBD
 ## Additional Info
 **Authors**: Zachary Olkin, William Compton, Ryan Bena, Aaron Ames.
 
-**Conference:** In review.
+**Conference:** IROS 2026.
 
 **Location of work**: Amber Lab, Caltech
 

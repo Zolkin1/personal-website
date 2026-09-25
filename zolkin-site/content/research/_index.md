@@ -6,6 +6,14 @@ layout: wide
 
 {{< cards >}}
     {{< card
+        link="/research/generate_track_improve"
+        title="Generate, Track, Improve: Perceptive Multi-Skill Humanoid Locomotion with RL-Fine-Tuned Motion Generators"
+        subtitle="Caltech, 2026"
+        image="/research/images/gti_hero_fig.jpg"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+  >}}
+
+    {{< card
         link="/research/stability_of_clf_rl"
         title="Stability of Control Lyapunov Function Guided Reinforcement Learning"
         subtitle="Caltech, 2026"

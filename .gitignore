@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# Hugo build output (Netlify builds the site from source)
+zolkin-site/public/
+zolkin-site/resources/_gen/
+.hugo_build.lock
